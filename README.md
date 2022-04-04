@@ -58,7 +58,7 @@ cv2.waitKey(0)
 ## v) To Cut and Paste portion of image:
 ~~~
 import cv2
-img= cv2.imread('Alone.jpg',-1)
+img= cv2.imread('tiger.jpg',-1)
 new = img[200:450,200:450]
 img[150:400,150:400] = new
 cv2.imshow('Thirugnanamoorthi 212221230117',img)
