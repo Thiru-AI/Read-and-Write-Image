@@ -21,26 +21,26 @@ End the program and close the output image windows.
 
 ## Program:
 ~~~
-Developed By: Syed Abdul Wasih H
-Register Number : 212221240057
+Developed By: Thirugnanamoorthi G
+Register Number : 212221230117
 ~~~
 ## i) To Read and Display the image:
 ~~~
 import cv2
-color= cv2.imread('Alone.jpg',-1)
-cv2.imshow('image',color)
+color= cv2.imread('tiger.jpg',-1)
+cv2.imshow('Thirugnanamoorthi 212221230117',color)
 cv2.waitKey(0)
 ~~~
 ## ii) To Write the image:
 ~~~
 import cv2
-color= cv2.imread('Alone.jpg',-1)
-cv2.imwrite('Alone.jpg',color)
+color= cv2.imread('tiger.jpg',-1)
+cv2.imwrite('tiger.jpg',color)
 ~~~
 ## iii) Find the Shape of the Image:
 ~~~
 import cv2
-color=cv2.imread('Alone.jpg',1)
+color=cv2.imread('tiger.jpg',1)
 print(color.shape)
 ~~~
 
@@ -48,11 +48,11 @@ print(color.shape)
 ~~~
 import cv2
 import random
-img= cv2.imread('Alone.jpg',-1)
+img= cv2.imread('tiger.jpg',-1)
 for i in range(150):
     for j in range(img.shape[1]):
         img[i][j] = [random.randint(0,255),random.randint(0,255),random.randint(0,255)]
-cv2.imshow('Alone.jpg',img)
+cv2.imshow('Thirugnanamoorthi 212221230117',img)
 cv2.waitKey(0)
 ~~~
 ## v) To Cut and Paste portion of image:
@@ -61,19 +61,19 @@ import cv2
 img= cv2.imread('Alone.jpg',-1)
 new = img[200:450,200:450]
 img[150:400,150:400] = new
-cv2.imshow('Alone',img)
+cv2.imshow('Thirugnanamoorthi 212221230117',img)
 cv2.waitKey(0)
 ~~~
 ## Output:
 ### i) Read and display the image:
-![output](./img/1.jpg)
+![output](1.png)
 ### ii) Write the image:
-![output](./img/2.jpg) 
+![output](2.png) 
 ### iii) Shape of the Image:
-![output](./img/3.jpg)
+![output](3.png)
 ### iv) Access rows and columns:
-![output](./img/4.jpg)
+![output](4.png)
 ### v) Cut and paste portion of image:
-![output](./img/5.jpg)
+![output](5.png)
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
